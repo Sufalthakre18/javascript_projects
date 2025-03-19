@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "General Sans";
+    font-family: "General Sans" ;
+
+}
+
+body::-webkit-scrollbar {
+  display: none; 
 }
 html,body{
     width: 100%;
@@ -200,6 +205,11 @@ html,body{
     background-color: #31473A;
     overflow-y: hidden;
     padding-top: 100vh;
+}
+
+#about img{
+    border-radius: 600px;
+    
 }
 
 #textabout {
