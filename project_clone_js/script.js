@@ -12,7 +12,7 @@ function firstPageAnim() {
         ease:Expo.easeInOut
 
     })
-    .to('.boundingelem',{
+    .to('.boundingelement',{
         y:0,
         ease:Expo.easeInOut,
         duration:2,
@@ -39,7 +39,7 @@ function CircleSkew() {
         
         clearTimeout(timer)
         xscale=gsap.utils.clamp(.6,1.4,dets.clientX -xprev)
-        yscale=gsap.utils.clamp(.8,1.2,dets.clientY-yprev)
+        yscale=gsap.utils.clamp(.7,1.3,dets.clientY-yprev)
 
         xprev=dets.clientX
         yprev=dets.clientY
@@ -87,7 +87,9 @@ document.querySelectorAll(".elem").forEach(function (elem) {
     });
   });
 
-
+document.getElementById('menu').addEventListener('click',function(){
+  document.querySelector('ul').classList.toggle('active')
+})
 
 
 
