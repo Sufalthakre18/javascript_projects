@@ -1,6 +1,8 @@
 # Portfolio Website Frontend Clone
 
-
+## 🔗 Live Demo
+Check out the live version here:  
+[Live Site](https://sufalthakre18.github.io/javascript_projects/)
 
 ## Overview
 A sleek, modern portfolio website built with **HTML**, **CSS**, and **JavaScript**. This project demonstrates front-end development skills through clean design, interactive elements, and smooth animations. It's a clone inspired by professional portfolios, featuring sections for hero/intro, skills/projects/certifications, about me, subscribe, and footer. Perfect for showcasing as a personal site or resume piece.
